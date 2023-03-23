@@ -1,0 +1,329 @@
+/*fonts*/
+ @font-face {
+ 	font-family: NewYork;
+ 	src: url('NewYork.otf');
+ 	font-family: Lora;
+ 	src: url('Lora.ttf');
+ 	font-family: DMSerif;
+ 	src: url('DMSerif.ttf');
+ }
+
+ /*home background*/
+ #homeBody {
+	margin:0px;
+	background-image: url("bg.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+/*navigation bar*/
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	font-family: Lora;
+	font-size:20px;
+	margin-top: 25px;
+}
+
+.nav a, .nav a:visited, .nav a:active {
+/*.nav a, a:visited, a:active {*/
+	padding-left:10px;
+	padding-right: 10px;
+	color: #fff;
+	text-decoration:none;
+}
+.nav a:active {
+	color: #B9A390;
+}
+
+.nav a:hover{
+	color:#B9A390;
+}
+
+/*title*/
+.title {
+	font-family: NewYork;
+	color: #E0DBD7;
+	margin-top: 350px;
+	font-size: 80px;
+	text-align: center;
+}
+
+.titleDescription {
+	font-family: Lora;
+	color: #E0DBD7;
+	margin: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+/*introduction*/
+.introductionSection {
+ 	background-color:#1C1C1D;
+ 	margin-top: 550px;
+ 	padding-top: 100px;
+ 	justify-content: center;
+}
+
+.introContent {
+	display: flex;
+	flex-direction: row;
+	width: 58%;
+	margin: auto;
+	padding: 20px;
+}
+
+.introText {
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+}
+
+.introTitle {
+	text-align:left;
+	font-family: "NewYork";
+	font-size: 50px;
+	color:#B9A390;
+}
+
+.introBody {
+	font-family: "Lora";
+	font-size: 17px;
+	color:#E2DDD9;
+	text-align:left;
+}
+
+.introGallery {
+	display: flex;
+	justify-content: space-between;
+	width: 58%;
+	min-width: 300px;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+
+/*Brooklyn & Manhattan sections*/
+.brooklynSection {
+	background-color: #B7A18E;
+	margin-top: 450px;
+}
+
+.manhattanSection {
+	background-color: #1C1C1D;
+}
+
+.brooklynTitle {
+	font-family: NewYork;
+	color: #E0DBD7;
+	margin-top: 50px;
+/*	margin-left: 100px;*/
+	font-size: 80px;
+    border-bottom: 5px solid #E0DBD7;
+    width: min-content;
+    padding-left: 100px;
+}
+
+.manhattanTitleContainer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.manhattanTitle {
+	font-family: NewYork;
+	color: #908C83;
+	font-size: 80px;
+	text-align: right;
+	border-bottom: 5px solid #908C83;
+    width: min-content;
+    padding-right: 100px;
+}
+
+.column1 a, .column1 a:visited, .column1 a:active {
+	padding-left:10px;
+	padding-right: 10px;
+	color: #4F3A2B;
+	text-decoration:none;
+}
+.column1 a:active {
+	color: #fff;
+}
+
+.column1 a:hover{
+	color:#fff;
+}
+
+/*subway section*/
+
+.subwaySection {
+	background-color: #202020;
+	margin-top: 450px;
+	padding: 30px;
+}
+
+.subwayTitle {
+	font-family: NewYork;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 50px;
+	text-align: center;
+	padding: 20px;
+}
+
+.subwayImages {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.subwayText {
+	font-family: Lora;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+	width: 70%;
+}
+
+.subwayResources {
+	justify-content: space-around;
+	display: flex;
+	font-family: Lora;
+	font-size: 18px;
+	padding: 20px;
+	text-align: center;
+}
+
+
+.subwayResources a, .subwayResources a:visited, .subwayResources a:active {
+/*.nav a, a:visited, a:active {*/
+	padding-left:10px;
+	padding-right: 10px;
+	color: #B9A390;
+	text-decoration:none;
+}
+.subwayResources a:active {
+	color: #fff;
+}
+
+.subwayResources a:hover{
+	color:#fff;
+}
+
+/*restaurants background*/
+#restaurantsBody {
+	margin:0px;
+	background-image: url("JPEG/bg2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+/*attractions background*/
+#attractionsBody {
+	margin:0px;
+	background-image: url("bg3.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+/*itineraries background*/
+#itinerariesBody {
+	margin:0px;
+	background-image: url("bg4.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+/*subway background*/
+#subwayBody {
+	margin:0px;
+	background-image: url("bg5.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+/*CONTENT*/
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box {
+	background-color: rgb(223, 217, 212, 0.5);
+	width: 40%;
+	min-width: 500px;
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 25px;
+	display: flex;
+}
+
+.column1 {
+	width: 50%;
+	padding: 10px;
+	min-width: 220px;
+	margin-right: 20px;
+	background-color: #E0DBD7;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.column2 {
+	width:50%;
+	min-width: 240px;
+	display: flex;
+	justify-content: center;
+}
+
+.boxTitle {
+	font-family: DMSerif;
+	font-size: 26px;
+	text-align: center;
+}
+
+.address {
+	font-family: Lora;
+	font-size: 14px;
+	margin-top: 15px;
+	padding: 10px;
+	text-align: center;
+}
+
+.description {
+	font-family: Lora;
+	font-size: 16px;
+	padding: 10px;
+	text-align: left;
+}
+
+.website {
+	margin-top: 20px;
+	font-family: Lora;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+}
+
+a.website, a.website:visited, a.website:active {
+	color: #ff0072;
+}
+
+a.website:hover {
+	color: black;
+}
+
+.image {
+	width:100%;
+	height: auto;
+	object-fit: cover; /* NOTE: Prevent image from getting squished */
+}
